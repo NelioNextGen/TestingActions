@@ -62,8 +62,7 @@ class ResPartnerBank(models.Model):
 
     @api.depends("acc_number")
     def _compute_acc_type(self):
-        for bank in self:
-            if bank.company_id.country_code == "EC":
-                bank.acc_type = bank.l10n_ec_account_type
-            else:
-                super()._compute_acc_type()
+        partners = self.filtered(lambda x: x.company_id.country_code == "EC")
+        for bank in partners:
+            bank.acc_type = bank.l10n_ec_account_type
+        return super(ResPartnerBank, self - partners)._compute_acc_type()
