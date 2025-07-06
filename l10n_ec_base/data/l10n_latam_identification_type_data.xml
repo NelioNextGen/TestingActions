@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <record id="ec_ruc" model="l10n_latam.identification.type">
+    <field name="name">RUC</field>
+    <field name="description">Registro Unico de Contribuyente</field>
+    <field name="country_id" ref="base.ec" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidprov">01</field>
+    <field name="l10n_ec_tpidcliente">04</field>
+    <field name="l10n_ec_tipoidinformante">R</field>
+    <field name="sequence">10</field>
+  </record>
+  <record id="ec_dni" model="l10n_latam.identification.type">
+    <field name="name">Cédula (NUI)</field>
+    <field name="description">Cédula de Ciudadanía o Cédula de Identidad</field>
+    <field name="country_id" ref="base.ec" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidprov">02</field>
+    <field name="l10n_ec_tpidcliente">05</field>
+    <field name="l10n_ec_tipoidinformante">C</field>
+    <field name="sequence">20</field>
+  </record>
+  <record id="ec_final" model="l10n_latam.identification.type">
+    <field name="name">Consumidor final</field>
+    <field name="description">Consumidor Final</field>
+    <field name="country_id" ref="base.ec" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidcliente">07</field>
+    <field name="l10n_ec_tipoidinformante">F</field>
+    <field name="sequence">30</field>
+  </record>
+  <!-- TODO: Remove in master -->
+  <record id="ec_passport" model="l10n_latam.identification.type">
+    <field name="name">Pasaporte</field>
+    <field
+      name="description"
+    >Pasaporte para extranjeros con domicilio en el país (Deprecado)</field>
+    <field name="country_id" ref="base.ec" />
+    <field name="active" eval="True" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidprov">03</field>
+    <field name="l10n_ec_tpidcliente">06</field>
+    <field name="l10n_ec_tipoidinformante">P</field>
+    <field name="sequence">40</field>
+  </record>
+
+  <!-- TODO: Remove in master -->
+  <record id="ec_internacional" model="l10n_latam.identification.type">
+    <field name="name">Intenacional (RUC)</field>
+    <field name="description">Internacional (Persona fuera del Pais)</field>
+    <field name="active" eval="True" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidprov">03</field>
+    <field name="l10n_ec_tpidcliente">08</field>
+    <field name="l10n_ec_tipoidinformante">P</field>
+    <field name="l10n_ec_tpidclienteex">20</field>
+    <field name="sequence">50</field>
+  </record>
+  <record id="ec_internacional_id" model="l10n_latam.identification.type">
+    <field name="name">Pasaporte / Identificación tributaria del exterior</field>
+    <field name="description">Internacional (Persona fuera del Pais)</field>
+    <field name="active" eval="True" />
+    <field name="is_vat" eval="True" />
+    <field name="l10n_ec_tpidprov">03</field>
+    <field name="l10n_ec_tpidcliente">08</field>
+    <field name="l10n_ec_tipoidinformante">P</field>
+    <field name="l10n_ec_tpidclienteex">21</field>
+    <field name="sequence">50</field>
+  </record>
+</odoo>

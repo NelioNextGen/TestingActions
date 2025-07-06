@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="view_partner_bank_form_inherit_l10n_ec" model="ir.ui.view">
+    <field name="name">res.partner.bank.form.inherit</field>
+    <field name="model">res.partner.bank</field>
+    <field name="inherit_id" ref="base.view_partner_bank_form" />
+    <field name="priority" eval="100" />
+    <field name="arch" type="xml">
+      <field name="partner_id" position="after">
+        <field name="country_id" invisible="1" />
+        <label for="l10n_latam_identification_type_id" string="Identification Number" />
+        <div class="o_row" name="l10n_ec_data">
+          <field
+            name="l10n_latam_identification_type_id"
+            options="{'no_open': True, 'no_create': True}"
+            placeholder="Type"
+            class="oe_inline"
+            domain="country_id and ['|', ('country_id', '=', False), ('country_id', '=', country_id)] or []"
+          />
+          <field name="vat" placeholder="Number" class="oe_inline" />
+        </div>
+      </field>
+      <field name="bank_id" position="after">
+        <field name="l10n_ec_account_type" />
+      </field>
+    </field>
+  </record>
+</odoo>

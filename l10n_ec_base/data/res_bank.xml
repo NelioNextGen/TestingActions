@@ -1,0 +1,2497 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="bank_ec_banecuador" model="res.bank">
+    <field name="name">Banecuador B.P.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_biess" model="res.bank">
+    <field name="name">Bco. Del Instituto Ecuatoriano De Seguridad Social</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_bev" model="res.bank">
+    <field name="name">Bco. Ecuatoriano De La Vivienda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_pichincha" model="res.bank">
+    <field name="name">Bco. Pichincha</field>
+    <field name="country" ref="base.ec" />
+    <field name="bic">PICHECEQXXX</field>
+  </record>
+
+  <record id="bank_ec_capital" model="res.bank">
+    <field name="name">Bco. Capital S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_finca" model="res.bank">
+    <field name="name">Bco. Para La Asistencia Comunitaria Finca S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_amazonas" model="res.bank">
+    <field name="name">Bco. Amazonas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_citibank" model="res.bank">
+    <field name="name">Bco. City Bank</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_internacional" model="res.bank">
+    <field name="name">Bco. Internacional</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_produbanco" model="res.bank">
+    <field name="name">Bco. De La Produccion</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_procredit" model="res.bank">
+    <field name="name">Bco. Procredit S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_gnralrumi" model="res.bank">
+    <field name="name">Bco. General Ruminahui</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_solidario" model="res.bank">
+    <field name="name">Bco. Solidario</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_manabi" model="res.bank">
+    <field name="name">Coop. A Y C Manantial De Oro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_juan_de_salinas" model="res.bank">
+    <field name="name">Coop. A Y C Juan De Salinas Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_puellaro" model="res.bank">
+    <field name="name">Coop. A Y C Puellaro Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_jerusalem" model="res.bank">
+    <field name="name">Coop. A Y C Nueva Jerusalen</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_kawsay" model="res.bank">
+    <field name="name">Coop. A Y C Agraria Mushuk Kawsay Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tena" model="res.bank">
+    <field name="name">Coop. A Y C Tena Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_peq_emp_gualaquiza" model="res.bank">
+    <field name="name">Coop. A Y C De La Pequeña Empresa Gualaquiza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alianza_minas" model="res.bank">
+    <field name="name">Coop. A Y C Alianza Minas Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="mutlst_ec_pichincha" model="res.bank">
+    <field name="name">Mutualista Pichincha</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mi_tierra" model="res.bank">
+    <field name="name">Coop. A Y C Mi Tierra</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_yanzatza" model="res.bank">
+    <field name="name">Coop. A Y C De La Peq. Emp. Cacpe Yanzatza Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fundesarrollo" model="res.bank">
+    <field name="name">Coop. A Y C Fundesarrollo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_zamora" model="res.bank">
+    <field name="name">Coop. A Y C De La Peq. Emp. Cacpe Zamora Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educ_pastaza" model="res.bank">
+    <field name="name">Coop. A Y C Educadores De Pastaza Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_grameen_amazonas" model="res.bank">
+    <field name="name">Coop. A Y C Grameen Amazonas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_min_edu_cult_cacspmec" model="res.bank">
+    <field name="name">Coop. Serv. Pub. Ministerio Educación Y Cultura Cacspmec</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_23_mayo" model="res.bank">
+    <field name="name">Coop. A Y C 23 De Mayo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coca" model="res.bank">
+    <field name="name">Coop. A Y C Coca Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pilahuin_tio" model="res.bank">
+    <field name="name">Coop. A Y C Pilahuin Tio Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_huaicana" model="res.bank">
+    <field name="name">Coop. A Y C Huaicana Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credisur" model="res.bank">
+    <field name="name">Coop. A Y C Credisur Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_maquita_cushunchic" model="res.bank">
+    <field name="name">Coop. A Y C Maquita Cushunchic Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_casag" model="res.bank">
+    <field name="name">Coop. A Y C Casag Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_focia" model="res.bank">
+    <field name="name">Coop. A Y C Focla</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_formacion_indigena" model="res.bank">
+    <field name="name">Coop. A Y C Formacion Indigena Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_20_febrero" model="res.bank">
+    <field name="name">Coop. A Y C 20 De Febrero Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alfa_omega" model="res.bank">
+    <field name="name">Coop. A Y C Indigena Alfa Y Omega Ltda.Alfa Y Omega Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_transportista_cacet" model="res.bank">
+    <field name="name">Coop. A Y C El Transportista Cacet</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cordillera_andes" model="res.bank">
+    <field name="name">Coop. A Y C Cordillera De Los Andes Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_puerto_orellana" model="res.bank">
+    <field name="name">Coop. A Y C Puerto Francisco De Orellana</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_luz_del_valle" model="res.bank">
+    <field name="name">Coop. A Y C Luz Del Valle</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_eps_prog_valle" model="res.bank">
+    <field name="name">Coop. A Y C Esperanza Y Progreso Del Valle</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coopartamos" model="res.bank">
+    <field name="name">Coop. A Y C Coopartamos Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corp_centro" model="res.bank">
+    <field name="name">Coop. A Y C Corporacion Centro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_juan_cotogchoa" model="res.bank">
+    <field name="name">Coop De A. Y C. San Juan De Cotogchoa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_emprendedores_coopemprender" model="res.bank">
+    <field name="name">Coop. A Y C Emprendedores Coopemprender Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_loja" model="res.bank">
+    <field name="name">Coop. A Y C Nueva Loja Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_runa_shungo" model="res.bank">
+    <field name="name">Coop. A Y C Runa Shungo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pichincha" model="res.bank">
+    <field name="name">Coop. A Y C Pichncha Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacec" model="res.bank">
+    <field name="name">Coop.De A Y C Cacec Ltda. (Cotopaxi)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fond_vida" model="res.bank">
+    <field name="name">Coop. A Y C Fondo Para El Desarrollo Y La Vida Fond Vida</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_vision" model="res.bank">
+    <field name="name">Coop. A Y C Nueva Vision</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_vicente_sur" model="res.bank">
+    <field name="name">Coop. A Y C San Vicente Del Sur Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_viv_ordn_seg" model="res.bank">
+    <field name="name">Coop. A Y C Para La Vivienda Orden Y Seguridad</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_comr_joya_sachas" model="res.bank">
+    <field name="name">Coop De A. Y C. Camara De Comercio Joya De Los Sachas Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_focap" model="res.bank">
+    <field name="name">Coop. A Y C Focap</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_18_noviembre" model="res.bank">
+    <field name="name">Coop. A Y C 18 De Noviembre</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alsec" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C Alianza Social Ecuat. Alsec Ltda Producc. Servicios Y Construc.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_reno_ecu_acc_resp" model="res.bank">
+    <field name="name">Coop. A Y C Renovadora Ecuatoriana Con Accion Responsable</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_yuyay_napo" model="res.bank">
+    <field name="name">Coop. A Y C Mushuk Yuyay - Napo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_ana_nayon" model="res.bank">
+    <field name="name">Coop. A Y C Santa Ana De Nayon</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educ_napo" model="res.bank">
+    <field name="name">Coop. A Y C Educadores Del Napo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_textil_14_marzo" model="res.bank">
+    <field name="name">Coop. A Y C Textil 14 De Marzo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_union_desarrollo" model="res.bank">
+    <field name="name">Coop. A Y C Union Y Desarrollo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_esprz_futuro" model="res.bank">
+    <field name="name">Coop. A Y C Esperanza Del Futuro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_17_marzo" model="res.bank">
+    <field name="name">Coop. A Y C 17 De Marzo Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_catar" model="res.bank">
+    <field name="name">Coop. A Y C Catar Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_accion_popular" model="res.bank">
+    <field name="name">Coop. A Y C De Accion Popular</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alli_tarpuk" model="res.bank">
+    <field name="name">Coop. A Y C Alli Tarpuk Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_16_julio_ltda" model="res.bank">
+    <field name="name">Coop. A Y C 16 De Julio Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_politecnica" model="res.bank">
+    <field name="name">Coop. A Y C Politecnica Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nac_llano_grande" model="res.bank">
+    <field name="name">Coop. A Y C Nacional Llano Grande Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_valentin" model="res.bank">
+    <field name="name">Coop. A Y C San Valentin</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="finan_ec_diners" model="res.bank">
+    <field name="name">Financiera - Diners Club Del Ecuador S A</field>
+    <field name="phone">+593992480556</field>
+    <field name="street">Av. Amazonas 4560</field>
+    <field name="street2">Av. Isidro Ayora</field>
+    <field name="city">Quito</field>
+    <field name="state" ref="base.state_ec_17" />
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_prev_aho_desrrll" model="res.bank">
+    <field name="name">Coop. Prevision Ahorro Y Desarrollo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_andalucia" model="res.bank">
+    <field name="name">Coop. A Y C Andalucia</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_peq_emp_pastaza" model="res.bank">
+    <field name="name">Coop. De La Pequeña Empresa De Pastaza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cooprogreso" model="res.bank">
+    <field name="name">Coo.  A Y C Cooprogreso</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_29_octubre" model="res.bank">
+    <field name="name">Coop. A Y C 29 De Octubre</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pedro_moncayo" model="res.bank">
+    <field name="name">Coop. A Y C Pedro Moncayo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cotocollao" model="res.bank">
+    <field name="name">Coop. A Y C Cotocollao</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alianza_valle" model="res.bank">
+    <field name="name">Coop.A Y C Alianza Del Valle Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_miguel_bancos" model="res.bank">
+    <field name="name">Coop. A Y C San Miguel De Los Bancos</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_policia_nacional" model="res.bank">
+    <field name="name">Coop. A Y C Policia Nacional Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="finan_ec_financoop" model="res.bank">
+    <field name="name">Financiera - Financoop</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_bancodesarrollo" model="res.bank">
+    <field name="name">Bco. Desarrollo De Los Pueblos S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_23_julio" model="res.bank">
+    <field name="name">Coop. A Y C 23 De Julio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_francisco_asis" model="res.bank">
+    <field name="name">Coop. A Y C San Francisco De Asis Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_accival" model="res.bank">
+    <field name="name">Acciones Valores Casa De Valores S.A. Accival</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_santafevalores" model="res.bank">
+    <field name="name">Santa Fe Casa De Valores S.A. Santafevalores</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_analytica_securties" model="res.bank">
+    <field name="name">Analytica Securties C.A. Casa De Valores</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_orion" model="res.bank">
+    <field name="name">Orion Casa De Valores S.A</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_stratega" model="res.bank">
+    <field name="name">Stratega Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_inmovalor" model="res.bank">
+    <field name="name">Inmovalor Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_ecuabursatil" model="res.bank">
+    <field name="name">Ecuabursatil Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fcme" model="res.bank">
+    <field name="name">Fondo De Cesantía Del Magisterio Ecuatoriano Fcme-Fcpc</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_mercapital" model="res.bank">
+    <field name="name">Mercapital Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_portavalor" model="res.bank">
+    <field name="name">Portafolio Casa De Valores S.A. Portavalor</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_metrovalores" model="res.bank">
+    <field name="name">Metrovalores Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_vectorglobal" model="res.bank">
+    <field name="name">Vectorglobal Wmg Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_holdunpartners" model="res.bank">
+    <field name="name">Holdunpartners Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_guayaquil" model="res.bank">
+    <field name="name">Bco. De Guayaquil S.A</field>
+    <field name="bic">GUAYECEGXXX</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_pacifico" model="res.bank">
+    <field name="name">Bco. Del Pacifico</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_bolivariano" model="res.bank">
+    <field name="name">Bco. Bolivariano</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_bank" model="res.bank">
+    <field name="name">Bco. Delbank S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_litoral" model="res.bank">
+    <field name="name">Bco. Del Litoral S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_dmiro" model="res.bank">
+    <field name="name">Bco. D-Miro S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_huancavilca" model="res.bank">
+    <field name="name">Coop. A Y C Nueva Huancavilca Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_huaquillas" model="res.bank">
+    <field name="name">Coop. A Y C Huaquillas Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_col_fisc_exper_vicente_rocafuerte" model="res.bank">
+    <field name="name">Coop. A Y C Del Col. Fisc. Exper. Vicente Rocafuerte</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_andes_latinos" model="res.bank">
+    <field name="name">Coop. A Y C Los Andes Latinos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_bartolo" model="res.bank">
+    <field name="name">Coop. A Y C San Bartolo Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_emigrante_ecuatoriano_fmlia" model="res.bank">
+    <field name="name">Coop. A Y C Del Emigrante Ecuatoriano Y Su Familia Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_libertad" model="res.bank">
+    <field name="name">Coop. A Y C La Libertad Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cuna_nacionalidad" model="res.bank">
+    <field name="name">Coop. A Y C Cuna De La Nacionalidad Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_dr_cornelio_saenz_vera" model="res.bank">
+    <field name="name">Coop. A Y C Dr. Cornelio Saenz Vera Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_carlos" model="res.bank">
+    <field name="name">Coop. A Y C San Carlos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_esprz_valle_virgen" model="res.bank">
+    <field name="name">Coop. A Y C A Y C Esperanza De Valle De La Virgen Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corcimol" model="res.bank">
+    <field name="name">Coop. A Y C A Y C Zona De Capital Corcimol</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_universidad_guayaquil" model="res.bank">
+    <field name="name">Coop. A Y C Universidad De Guayaquil Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_coopnacional" model="res.bank">
+    <field name="name">Bco. Coopnacional S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_dolorosa" model="res.bank">
+    <field name="name">Coop. A Y C La Dolorosa Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_base_taura" model="res.bank">
+    <field name="name">Coop. A Y C Base De Taura</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_ventura_vencasa" model="res.bank">
+    <field name="name">Ventura Casa De Valores Vencasa S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_banrio" model="res.bank">
+    <field name="name">Casa De Valores Banrio S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_albion" model="res.bank">
+    <field name="name">Albion Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_masvalores_cavamasa" model="res.bank">
+    <field name="name">Masvalores Casa De Valores S.A Cavamasa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_advfin" model="res.bank">
+    <field name="name">Casa De Valores Advfin S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_silvercross" model="res.bank">
+    <field name="name">Silvercross S.A Casa De Valores Sccv</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_koavalsa" model="res.bank">
+    <field name="name">Kapital One Casa De Valores S.A. Kaovalsa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_plusbursatil" model="res.bank">
+    <field name="name">Plusbursatil Casa De Valores S.A</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_ases_e_intermed" model="res.bank">
+    <field name="name">Activa Ases.E Intermed.Valores Activalores Casa De Valores</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_citadel" model="res.bank">
+    <field name="name">Citadel Casa De Valores S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_intervalores" model="res.bank">
+    <field name="name">Intervalores Casa De Valores S. A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_austro" model="res.bank">
+    <field name="name">Bco. Del Austro</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="mutlst_ec_azuay" model="res.bank">
+    <field name="name">Mutualista Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alfonzo_jaramillo" model="res.bank">
+    <field name="name">Coop. A Y C Alfonso Jaramillo C.C.C.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_jep" model="res.bank">
+    <field name="name">Coop. Juventud Ecuatoriana Progresista Ltda. (Coop. Jep ) </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_jardin_azuayo" model="res.bank">
+    <field name="name">Coop. A Y C Jardin Azuayo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_merced" model="res.bank">
+    <field name="name">Coop. A Y C La Merced Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_provida" model="res.bank">
+    <field name="name">Coop. A Y C Provida</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sr_giron" model="res.bank">
+    <field name="name">Coop. A Y C Señor De Girón</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_erco" model="res.bank">
+    <field name="name">Coop. A Y C Erco Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cac_cica" model="res.bank">
+    <field name="name">Coop. A Y C Cac-Cica (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_jadan" model="res.bank">
+    <field name="name">Coop. A Y C Jadan Ltda. (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_crea" model="res.bank">
+    <field name="name">Coop. A Y C Crea Ltda ( Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_municipales_cuenca" model="res.bank">
+    <field name="name">Coop. A Y C. Servidores Municipales De Cuenca</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_marcos" model="res.bank">
+    <field name="name">Coop. A Y C San Marcos</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_isabel" model="res.bank">
+    <field name="name">Coop. A Y C Santa Isabel Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ganansol" model="res.bank">
+    <field name="name">Coop. A Y C Gañansol Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_azuay" model="res.bank">
+    <field name="name">Coop. A Y C Del Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_choferes_azuay" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C Del Sindicato De Choferes Profesionales Del Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nukanchik" model="res.bank">
+    <field name="name">Coop. A Y C Ñukanchik</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_ana_azuay" model="res.bank">
+    <field name="name">Coop. A Y C Santa Ana Ltda.-Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_multiempresarial" model="res.bank">
+    <field name="name">Coop. A Y C Multiempresarial Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chola_cuencana" model="res.bank">
+    <field name="name">Coop. A Y C Chola Cuencana Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_artesanal_azuay" model="res.bank">
+    <field name="name">Coop.De A. Y C. Artesanal Del Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_azuay" model="res.bank">
+    <field name="name">Coop De A. Y C. Educadores Del Azuay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fasaynan" model="res.bank">
+    <field name="name">Coop A Y C. Fasayñan Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_oscus" model="res.bank">
+    <field name="name">Coop. A Y C Oscus</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sumak_sisa" model="res.bank">
+    <field name="name">Coop. A Y C Sumak Sisa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_warmikunapak_rikchari" model="res.bank">
+    <field name="name">Coop. A Y C Warmikunapak Rikchari Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_rey_david" model="res.bank">
+    <field name="name">Coop. A Y C Rey David Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_kullki_wasi" model="res.bank">
+    <field name="name">Coop. A Y C Kullki Wasi Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="mutlst_ec_ambato" model="res.bank">
+    <field name="name">Mutualista Ambato</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_sagrario" model="res.bank">
+    <field name="name">Coop. A Y C El Sagrario</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cam_comr_ambato" model="res.bank">
+    <field name="name">Coop. A Y C Camara De Comercio De Ambato Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuc_runa" model="res.bank">
+    <field name="name">Coop. A Y C Mushuc Runa Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educ_tungurahua" model="res.bank">
+    <field name="name">Coop. A Y C Educ.Del Tungurahua Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ambato" model="res.bank">
+    <field name="name">Coop. A Y C Ambato Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_llanganates" model="res.bank">
+    <field name="name">Coop. A Y C Llanganates</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_dorado" model="res.bank">
+    <field name="name">Coop. A Y C Dorado Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_calvario" model="res.bank">
+    <field name="name">Coop. A Y C El Calvario Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credi_facil" model="res.bank">
+    <field name="name">Coop. A Y C Credi Facil Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_vencedores_tungurahua" model="res.bank">
+    <field name="name">Coop. A Y C Vencedores De Tungurahua</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ecuafuturo" model="res.bank">
+    <field name="name">Coop. A Y C Ecuafuturo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_maquita_cushun" model="res.bank">
+    <field name="name">Coop. A Y C Maquita Cushun Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_valles_lirio" model="res.bank">
+    <field name="name">Coop. A Y C Valles Del Lirio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chilco_esperanza" model="res.bank">
+    <field
+      name="name"
+    >Coop. Esfuerzo Unido Para El Desarr. Del Chilco La Esperanza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_carroceros_tungurahua" model="res.bank">
+    <field name="name">Coop. A. Y C. Carroceros De Tungurahua</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_accion_tungurahua" model="res.bank">
+    <field name="name">Coop. A Y C Acción Tungurahua Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sumak_samy" model="res.bank">
+    <field name="name">Coop. A Y C Sumak Samy Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chibuleo" model="res.bank">
+    <field name="name">Coop. A Y C Chibuleo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tesoro_pillereno" model="res.bank">
+    <field name="name">Coop. A Y C El Tesoro Pillareño</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_kisapincha" model="res.bank">
+    <field name="name">Coop. A Y C Kisapincha Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_juventud_unida" model="res.bank">
+    <field name="name">Coop. A Y C Juventud Unida Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_union_quisapincha" model="res.bank">
+    <field name="name">Coop. A Y C Union Quisapincha Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_saint_michel" model="res.bank">
+    <field name="name">Coop. A Y C Saint Michel Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indigena_sac_pelileo" model="res.bank">
+    <field name="name">Coop. A Y C Indígena Sac Pelileo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credimas" model="res.bank">
+    <field name="name">Coop. Credimas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushug_causay" model="res.bank">
+    <field name="name">Coop. A Y C Mushug Causay Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_21_noviembre" model="res.bank">
+    <field name="name">Coop. A Y C 21 De Noviembre Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_floresta" model="res.bank">
+    <field name="name">Coop. A Y C La Floresta Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cociq" model="res.bank">
+    <field name="name">Coop. A Y C Corp. Org. Campesinas De Quisapincha Cociq</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_multicultrl_bnc_indigena" model="res.bank">
+    <field name="name">Coop. A Y C Multicultural Bco. Indigena Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_crecer_winari" model="res.bank">
+    <field name="name">Coop De A. Y C. Crecer Wiñari Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_banos_agua_santa" model="res.bank">
+    <field name="name">Coop. A Y C Baños De Agua Santa Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_1_julio" model="res.bank">
+    <field name="name">Coop. A Y C 1 De Julio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indigena_sac" model="res.bank">
+    <field name="name">Coop. A Y C Indigena Sac Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credi_ya" model="res.bank">
+    <field name="name">Coop. A Y C Credi Ya Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_bartolome" model="res.bank">
+    <field name="name">Coop. A Y C San Bartolome Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_produactiva" model="res.bank">
+    <field name="name">Coop. A Y C Produactiva Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tamboloma" model="res.bank">
+    <field name="name">Coop. A Y C Tamboloma Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pushak_runa_hombre_lider" model="res.bank">
+    <field name="name">Coop De A. Y C. Pushak Runa Hombre Lider</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_15_agosto" model="res.bank">
+    <field name="name">Coop. A Y C 15 De Agosto Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_migrantes_ecuador" model="res.bank">
+    <field name="name">Coop. A Y C Migrantes Del Ecuador Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_wuamanloma" model="res.bank">
+    <field name="name">Coop. A Y C Wuamanloma Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_salate" model="res.bank">
+    <field name="name">Coop. A Y C Salate Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_union_popular" model="res.bank">
+    <field name="name">Coop. A Y C Union Popular Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_biblian" model="res.bank">
+    <field name="name">Coop. A Y C De La La Pequeña Empresa Cacpe Biblian Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_canar" model="res.bank">
+    <field name="name">Coop. A Y C Cañar Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_yuyay" model="res.bank">
+    <field name="name">Coop. A Y C Mushuk Yuyay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fuerza_andes" model="res.bank">
+    <field name="name">Coop. A Y C Fuerza De Los Andes</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacique_guritave" model="res.bank">
+    <field name="name">Coop. A Y C Cacique Guritave</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_progreso_oriental" model="res.bank">
+    <field name="name">Coop. A Y C Solidaridad Y Progreso Oriental</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_achik_inti" model="res.bank">
+    <field name="name">Coop. A Y C Achik Inti Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_13_abril" model="res.bank">
+    <field name="name">Coop. A Y C 13 De Abril Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_antonio" model="res.bank">
+    <field name="name">Coop. A Y C San Antonio Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fundador" model="res.bank">
+    <field name="name">Coop. A Y C Fundar</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_metropolis" model="res.bank">
+    <field name="name">Coop. A Y C Metropolis Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_cafetal" model="res.bank">
+    <field name="name">Coop. A Y C El Cafetal</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mocache" model="res.bank">
+    <field name="name">Coop. A Y C Mocache Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_uni_tec_babahoyo" model="res.bank">
+    <field name="name">Coop. A Y C Universidad Tecnica De Babahoyo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_microempresarial_sucre" model="res.bank">
+    <field name="name">Coop.De A Y C Microempresarial Sucre</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacaepe" model="res.bank">
+    <field name="name">Coop. A Y C Afroecuatoriana De La Peq. Emp. Ltda Cacaepe</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_antorcha" model="res.bank">
+    <field name="name">Coop. A Y C Antorcha Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nuestros_abuelos" model="res.bank">
+    <field name="name">Coop. A Y C Nuestros Abuelos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_guaranda" model="res.bank">
+    <field name="name">Coop. A Y C Guaranda Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_juan_pio_mora" model="res.bank">
+    <field name="name">Coop. A Y C Juan Pio De Mora Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_simiatug" model="res.bank">
+    <field name="name">Coop. A Y C Simiatug Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_salinas" model="res.bank">
+    <field name="name">Coop. A Y C Salinas Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_pedro" model="res.bank">
+    <field name="name">Coop. A Y C San Pedro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camino_luz" model="res.bank">
+    <field name="name">Coop De A. Y C. Camino De Luz Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_jose" model="res.bank">
+    <field name="name">Coop. A Y C San Jose Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_joyocoto" model="res.bank">
+    <field name="name">Coop. A Y C Joyocoto Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_bolivar" model="res.bank">
+    <field name="name">Coop. A Y C A Y C Educadores De Bolivar</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_miguel" model="res.bank">
+    <field name="name">Coop. A Y C San Miguel Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_las_naves" model="res.bank">
+    <field name="name">Coop Ac Las Naves</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_visionfund" model="res.bank">
+    <field name="name">Sociedad Financiera Visionfund Ecuador S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_salinerita" model="res.bank">
+    <field name="name">Coop. A Y C Salinerita</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_bola_amarilla" model="res.bank">
+    <field name="name">Coop. A Y C Bola Amarilla</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_imbabura_amazonas" model="res.bank">
+    <field name="name">Coop. A Y C De Imbabura Amazonas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indigenas_chuchuqui" model="res.bank">
+    <field name="name">Coop. A. Y C. De Indigenas Chuchuqui Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="mutlst_ec_imbabura" model="res.bank">
+    <field name="name">Mutualista Imbabura</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_atuntaqui" model="res.bank">
+    <field name="name">Coop. Atuntaqui Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_artesanos" model="res.bank">
+    <field name="name">Coop. A Y C Artesanos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_anita" model="res.bank">
+    <field name="name">Coop. A Y C Santa Anita Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tantanakushka_warmikunapak_cacmu" model="res.bank">
+    <field
+      name="name"
+    >Coop. Ahorro. Y Credi. Mujeres Unidas Tantanakushka Warmikunapak Cacmu Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_antonio_imbabura" model="res.bank">
+    <field name="name">Coop. San Antonio Ltda - Imbabura</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_huayco_pungo" model="res.bank">
+    <field name="name">Coop.De A Y C Huayco Pungo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pijal" model="res.bank">
+    <field name="name">Coop. A Y C Pijal</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_uniotavalo" model="res.bank">
+    <field name="name">Coop. A Y C Uniotavalo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_union_ejido" model="res.bank">
+    <field name="name">Coop. A Y C Union El Ejido</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_accion_imbaburapak" model="res.bank">
+    <field name="name">Coop. A Y C Accion Imbaburapak Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_focazsum" model="res.bank">
+    <field name="name">Coop. A Y C Focazsum Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_visandes" model="res.bank">
+    <field name="name">Coop. A Y C Vision De Los Andes Visandes</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_9_octubre" model="res.bank">
+    <field name="name">Coop. A Y C 9 De Octubre Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpeco" model="res.bank">
+    <field name="name">Cacpeco Ltda (COAC)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_andina" model="res.bank">
+    <field name="name">Coop. A Y C Andina Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_15_agosto_pilacoto" model="res.bank">
+    <field name="name">Coop. 15 De Agosto Pilacoto</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pilahuin" model="res.bank">
+    <field name="name">Coop. A Y C Pilahuin</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pucara" model="res.bank">
+    <field name="name">Coop. A Y C Pucará Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sinchi_runa" model="res.bank">
+    <field name="name">Coop. A Y C Sinchi Runa Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_rosa_patutan" model="res.bank">
+    <field name="name">Coop. A Y C Santa Rosa De Patutan Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_miguel_sigchos" model="res.bank">
+    <field name="name">Coop. A Y C San Miguel De Sigchos</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sierra_centro" model="res.bank">
+    <field name="name">Coop. A Y C Sierra Centro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_union_mercedaria" model="res.bank">
+    <field name="name">Coop. A Y C Union Mercedaria Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_virgen_cisne" model="res.bank">
+    <field name="name">Coop. A Y C Virgen Del Cisne</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chasquis_pastocalle" model="res.bank">
+    <field name="name">Coop. A Y C Los Chasquis Pastocalle Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pujili" model="res.bank">
+    <field name="name">Coop. A Y C Pujili Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credil" model="res.bank">
+    <field name="name">Coop. A Y C Credil Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_iliniza" model="res.bank">
+    <field name="name">Coop. A Y C Iliniza Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_pakari" model="res.bank">
+    <field name="name">Coop. A Y C Mushuk Pakari Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_uniblock_servicios" model="res.bank">
+    <field name="name">Coop. A Y C Uniblock Y Servicios Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_futuro_lamanense" model="res.bank">
+    <field name="name">Coop. A Y C Futuro Lamanense</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_saquisili" model="res.bank">
+    <field name="name">Coop. A Y C Saquisili Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_innovacion_andina" model="res.bank">
+    <field name="name">Coop. A Y C Innovacion Andina Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_hermes_gaibor_verdesoto" model="res.bank">
+    <field name="name">Coop De A. Y C. Hermes Gaibor Verdesoto</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_semillas_pangua" model="res.bank">
+    <field name="name">Coop. A Y C Semillas De Pangua</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_panamericana" model="res.bank">
+    <field name="name">Coop De A. Y C. Panamericana Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sr_arbol" model="res.bank">
+    <field name="name">Coop. A Y C Señor Del Arbol</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alianza_financiera_cotopaxi" model="res.bank">
+    <field name="name">Coop. A Y C Alianza Financiera De Cotopaxi Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_mana" model="res.bank">
+    <field name="name">Coop. A Y C Cámara De Comercio De La Maná</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indigena_sac_latacunga" model="res.bank">
+    <field name="name">Coop De A. Y C. Indigena Sac Latacunga Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_solidaria_cotopaxi" model="res.bank">
+    <field name="name">Coop. A Y C Solidaria Ltda.- Cotopaxi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_unidad_progreso" model="res.bank">
+    <field name="name">Coop. A Y C Unidad Y Progreso</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_loja" model="res.bank">
+    <field name="name">Bco. De Loja</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coopmego" model="res.bank">
+    <field name="name">Coop. Manuel Esteban Godoy Ortega Ltda. Coopmego</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_padre_julian_lorente" model="res.bank">
+    <field name="name">Coop. A Y C Padre Julian Lorente Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_loja" model="res.bank">
+    <field name="name">Coop.A Y C De La Pequeña Empresa De Loja Cacpe Loja Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_semilla_progreso" model="res.bank">
+    <field name="name">Coop. A Y C Semilla Del Progreso Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cariamanga" model="res.bank">
+    <field name="name">Coop. A Y C Cariamanga Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cadecopi" model="res.bank">
+    <field name="name">Coop. A Y C De La Camara De Comercio De Pindal Cadecopi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_gonzanama_mies" model="res.bank">
+    <field name="name">Coop. A Y C Gonzanamá (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_quilanga" model="res.bank">
+    <field name="name">Coop. A Y C Quilanga Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_crodiamigo_loja_mies" model="res.bank">
+    <field name="name">Coop. A Y C Crediamigo Ltda. Loja (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fortuna_mies" model="res.bank">
+    <field name="name">Coop. A Y C Fortuna (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_celica" model="res.bank">
+    <field name="name">Coop. A Y C Cacpe Celica</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_catamayo_mies" model="res.bank">
+    <field name="name">Coop. A Y C Catamayo Ltda. (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_zamora_chinchipe" model="res.bank">
+    <field name="name">Coop. De A. Y C Educadores De Zamora Chinchipe</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_las_lagunas_mies" model="res.bank">
+    <field name="name">Coop. A Y C Las Lagunas (Miess)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_comerciante_mies" model="res.bank">
+    <field name="name">Coop.De A.Y C. El Comerciante Ltda (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_wasi_mies" model="res.bank">
+    <field name="name">Coop. A Y C Mushuk Wasi Ltda ( Mies )</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_saraguros" model="res.bank">
+    <field name="name">Coop. A Y C Saraguros</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_Inti_wasi_mies" model="res.bank">
+    <field name="name">Coop. A Y C Inti Wasi Ltda. (Mies)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_solidaria" model="res.bank">
+    <field name="name">Coop. A Y C Solidaria Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ecosur" model="res.bank">
+    <field name="name">Coop. A Y C Economia Del Sur Ecosur</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_sebastian" model="res.bank">
+    <field name="name">Coop. A Y C San Sebastian</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacvil" model="res.bank">
+    <field name="name">Coop. A Y C Vilcabamba Cacvil</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_santiago" model="res.bank">
+    <field name="name">Coop. A Y C Santiago Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_loja" model="res.bank">
+    <field name="name">Coop De A. Y C. Educadores De Loja</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cadecog_gonzanama" model="res.bank">
+    <field name="name">Coop De A.Y C. Cadecog - Gonzanama</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coopymec_macara" model="res.bank">
+    <field name="name">Coop. A Y C Coopymec - Macara</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cadecom_maraca" model="res.bank">
+    <field name="name">Coop. A Y C Cadecom - Macara</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_22_junio_orianga" model="res.bank">
+    <field name="name">Coop De A. Y C. 22 De Junio-Orianga</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_23_enero" model="res.bank">
+    <field name="name">Coop. A Y C 23 De Enero</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_obras_publicas_fisc_loja_zamora" model="res.bank">
+    <field name="name">Coop. A Y C Obras Publicas Fiscales De Loja Y Zamora</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_machala" model="res.bank">
+    <field name="name">Bco. Machala</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_16_julio" model="res.bank">
+    <field name="name">Coop. A Y C 16 De Junio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_el_oro" model="res.bank">
+    <field name="name">Coop. A Y C Educadores De El Oro Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_empleados_bancarios_el_oro" model="res.bank">
+    <field name="name">Coop. A Y C Empleados Bancarios Del Oro Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_socio_amigo" model="res.bank">
+    <field name="name">Coop. A Y C Socio Amigo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_popular_solidaria" model="res.bank">
+    <field name="name">Coop.De A. Y C. Popular Y Solidaria</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_familia_solidaria" model="res.bank">
+    <field name="name">Coop. A Y C Familia Solidaria</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sindicato_choferes_virgen_cisne" model="res.bank">
+    <field name="name">Coop. A Y C Del Sind Chof Prof Virgen Del Cisne</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_once_junio" model="res.bank">
+    <field name="name">Coop. A Y C Once De Junio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_rosa" model="res.bank">
+    <field name="name">Coop. De Ahorro Y Cred. Santa Rosa Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_marcabeli" model="res.bank">
+    <field name="name">Coop. A Y C Marcabelí Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_funturo_progreso_galapagos" model="res.bank">
+    <field name="name">Coop. A Y C Futuro Y Progreso De Galapagos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indigenas_galapagos" model="res.bank">
+    <field name="name">Coop. A Y C Indigenas Galapagos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_galapagos" model="res.bank">
+    <field name="name">Coop. A Y C Galapagos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_manabi" model="res.bank">
+    <field name="name">Bco. Comercial De Manabi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chone" model="res.bank">
+    <field name="name">Coop.A Y C Chone Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_agricola_junin" model="res.bank">
+    <field name="name">Coop. A Y C Agricola Junin Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_puerto_lopez" model="res.bank">
+    <field name="name">Coop. A Y C Puerto Lopez Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_bolivar" model="res.bank">
+    <field name="name">Coop. A Y C Camara De Comercio Del Canton Bolivar Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_esc_sup_politec_manabi_manuel_felix_lopez" model="res.bank">
+    <field
+      name="name"
+    >Coop. A.Y C. Esc.Sup.Politec. Agrop. De Manabi Manuel Felix Lopez Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_riochico" model="res.bank">
+    <field name="name">Coop. A Y C Riochico</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_union" model="res.bank">
+    <field name="name">Coop. A Y C La Unión Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_benefica" model="res.bank">
+    <field name="name">Coop. A Y C La Benéfica Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_isidro" model="res.bank">
+    <field name="name">Coop. A Y C San Isidro Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_abon_calderon" model="res.bank">
+    <field name="name">Coop.De A Y C Abdon Calderon Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_el_carmen" model="res.bank">
+    <field name="name">Coop. A Y C Camara De Comercio Canton -El Carmen Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_agroproductiva_manabi" model="res.bank">
+    <field name="name">Coop.De A Y C Agroproductiva Manabi Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_inmaculada_sn_placido" model="res.bank">
+    <field name="name">Coop. De Ahorro Y Cred. La Inmaculada De San Placido Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cacpe_manabi" model="res.bank">
+    <field name="name">Coop. A Y C Cacpe Manabi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_magisterio_manabita" model="res.bank">
+    <field name="name">Coop.A Y C Magisterio Manabita Limitada</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tienda_dinero" model="res.bank">
+    <field name="name">Coop. A Y C Tienda De Dinero Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_maria_manga_cura" model="res.bank">
+    <field name="name">Coop.A.Y C. Santa Maria De La Manga Del Cura Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_placido" model="res.bank">
+    <field name="name">Coop.De A Y C San Placido Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_paraiso_manga_cura" model="res.bank">
+    <field name="name">Coop. A Y C El Paraiso Manga Del Cura</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_profesores_empleados_trabajadores_utm" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C De Los Profesores Empleados Y Trabajadores De La U.T.M.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_miguel_chirijos" model="res.bank">
+    <field name="name">Coop. A Y C San Miguel De Chirijos Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_comercio_portoviejo" model="res.bank">
+    <field name="name">Coop. Comercio Ltda. (Portoviejo)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_ana_manabi" model="res.bank">
+    <field name="name">Coop. A Y C Santa Ana Ltda.-Manabi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_calceta" model="res.bank">
+    <field name="name">Coop. Calceta Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_15_abril" model="res.bank">
+    <field name="name">Coop. A Y C 15 De Abril Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_rosa_sn_carlos" model="res.bank">
+    <field name="name">Coop. A Y C. Santa Rosa De San Carlos Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_esperanza" model="res.bank">
+    <field name="name">Coop. A Y C Nueva Esperanza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_jorge" model="res.bank">
+    <field name="name">Coop. A Y C San Jorge Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_riobamba" model="res.bank">
+    <field name="name">Coop. A Y C Riobamba</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_chimborazo" model="res.bank">
+    <field name="name">Coop. A Y C Educadores De Chimborazo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_minga" model="res.bank">
+    <field name="name">Coop. A Y C Minga Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_4_octubre" model="res.bank">
+    <field name="name">Coop. A Y C 4 De Octubre Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_indigena_guamote" model="res.bank">
+    <field name="name">Coop. A Y C Camara De Comercio Indigena De Guamote Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fernando_daquilema" model="res.bank">
+    <field name="name">Coop. A Y C Fernando Daquilema</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sumac_llacta" model="res.bank">
+    <field name="name">Coop. A Y C Sumac Llacta Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_lucha_campesina" model="res.bank">
+    <field name="name">Coop. A Y C Lucha Campesina Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_guamote" model="res.bank">
+    <field name="name">Coop. A Y C Guamote Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_martin_tisaleo" model="res.bank">
+    <field name="name">Coop. A Y C San Martin De Tisaleo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_alli_tarpuc" model="res.bank">
+    <field name="name">Coop. A Y C Alli Tarpuc Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_miguel_pallatanga" model="res.bank">
+    <field name="name">Coop. A Y C San Miguel De Pallatanga</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pais" model="res.bank">
+    <field name="name">Coop. A Y C Produc. Ahorro Invers. Servicio P.A.I.S. Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_frandesc" model="res.bank">
+    <field name="name">Coop. A Y C Frandesc Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nuka_llakta" model="res.bank">
+    <field name="name">Coop. A Y C Ñuka Llakta Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_riobamba" model="res.bank">
+    <field name="name">Coop. A Y C. Camara De Comercio Riobamba</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_bashalan" model="res.bank">
+    <field name="name">Coop. A Y C Bashalan Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_codeso" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C Constructor Del Desarrollo Solidario Codeso Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sagrada_fmla_solidaria_pastoral_indig_cacha" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C Sagrada Familia Solidaridad Pastoral Indigena De Cacha Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_naupa_kausay" model="res.bank">
+    <field name="name">Coop. A Y C Ñaupa Kausay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_altar" model="res.bank">
+    <field name="name">Coop. A Y C El Altar Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_totoras" model="res.bank">
+    <field name="name">Coop. A Y C Totoras</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_luis_felipe_duchicela_xxvii" model="res.bank">
+    <field name="name">Coop. A Y C Luis Felipe Duchicela XXVII</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nizag" model="res.bank">
+    <field name="name">Coop. A Y C Nizag Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_makita_kunchik" model="res.bank">
+    <field name="name">Coop. A Y C Makita Kunchik</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cerrada_manuela_leon" model="res.bank">
+    <field name="name">Coop. A Y C Cerrada Manuela León</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_buen_sembrador" model="res.bank">
+    <field name="name">Coop. A Y C El Buen Sembrador Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_achik_pakari" model="res.bank">
+    <field name="name">Coop. A Y C Achik Pakari Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ciudad_zamora" model="res.bank">
+    <field name="name">Coop. A Y C Ciudad De Zamora</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_choferes_profecionales_yantzaza" model="res.bank">
+    <field name="name">Coop. A Y C Sindicato De Choferes Profesionales De Yantzaza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_snt_domingo" model="res.bank">
+    <field name="name">Coop. A Y C Cámara De Comercio Santo Domingo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_credisocio" model="res.bank">
+    <field name="name">Coop. A Y C Credisocio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_pablo_munoz_vega" model="res.bank">
+    <field name="name">Coop. Pablo Muñoz Vega.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_tulcan" model="res.bank">
+    <field name="name">Coop. A Y C Tulcan</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_gabriel" model="res.bank">
+    <field name="name">Coop. A Y C San Gabriel Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_educadores_tulcan" model="res.bank">
+    <field name="name">Coop. A Y C Educadores Tulcan Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_padre_vicente_ponce_rubio" model="res.bank">
+    <field name="name">Coop. A Y C Padre Vicente Ponce Rubio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_grameen" model="res.bank">
+    <field name="name">Corp. En Las Huellas Del Bco. Grameen</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_manu" model="res.bank">
+    <field name="name">Caja De A Y C Manu</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_frontera_sur" model="res.bank">
+    <field name="name">Caja De A Y C Frontera Sur</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_ingenio" model="res.bank">
+    <field name="name">Caja De A Y C El Ingenio</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_jose_ario" model="res.bank">
+    <field name="name">Coop. A Y C San José (El Airo)</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nstr_sra_merced" model="res.bank">
+    <field name="name">Caja De A Y C Nuestra Señora De La Merced</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_francisca_chigua" model="res.bank">
+    <field name="name">Caja De A Y C Francisca Chigua</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_manizal" model="res.bank">
+    <field name="name">Caja De A Y C El Manizal</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_solidaria_chiquicha" model="res.bank">
+    <field name="name">Caja Solidaria Chiquicha</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_solidaria_estrella_mundo" model="res.bank">
+    <field name="name">Caja Solidaria Estrella Del Mundo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corp_vientos_solidarios" model="res.bank">
+    <field name="name">Corp. Vientos Solidarios</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_aguilas_cristo" model="res.bank">
+    <field name="name">Coop. Águilas De Cristo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_crediunion" model="res.bank">
+    <field name="name">Coop. Crediunión</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_olmedo" model="res.bank">
+    <field name="name">Coop. Olmedo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corp_desrrll_finan_islas_encantadas" model="res.bank">
+    <field name="name">Corp. De Desarrollo Social Y Financiero Islas Encantadas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_srv_mutiples_agro_vida" model="res.bank">
+    <field name="name">Coop. De Servicios Múltiples Agro Vida</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_microempresa_chimborazo" model="res.bank">
+    <field name="name">Coop. De La Microempresa De Chimborazo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_4_octubre_sn_francisco_chambo" model="res.bank">
+    <field name="name">Coop. A Y C 4 De Octubre San Francisco De Chambo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_26_septiembre_lazaro_condo" model="res.bank">
+    <field name="name">Coop. A Y C 26 De Septiembre Lázaro Condo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_solidaria_cordtuch" model="res.bank">
+    <field name="name">Caja Solidaria De A Y C Cordtuch</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_15_diciembre" model="res.bank">
+    <field name="name">Coop. 15 De Diciembre</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cooprodesa" model="res.bank">
+    <field name="name">Coop. Prod. Y Des. Agr. Cooprodesa Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_antonio_toacaso" model="res.bank">
+    <field name="name">Coop. San Antonio De Toacaso</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fin_rhumy_wara" model="res.bank">
+    <field name="name">Corp. De Desarrollo Financiera Rhumy Wara</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_fin_prodvision" model="res.bank">
+    <field name="name">Corp. De Desarrollo Financiera Prodvisión</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_nueva_fuerza_alianza" model="res.bank">
+    <field name="name">Coop. Nueva Fuerza Alianza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_solidaria_warmikuna_kawsay" model="res.bank">
+    <field name="name">Caja Solidaria Warmikuna Kawsay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_pedro_pelileo" model="res.bank">
+    <field name="name">Coop. San Pedro De Pelileo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_solidaria_pasa" model="res.bank">
+    <field name="name">Caja Solidaria Pasa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corp_oriente" model="res.bank">
+    <field name="name">Corporación Oriente</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_caja_credito_desarrollo" model="res.bank">
+    <field name="name">Caja Credito Desarrollo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_mushuk_pakarik" model="res.bank">
+    <field name="name">Coop. Mushuk Pakarik</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corp_santander" model="res.bank">
+    <field name="name">Corp. Santander</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_francisco_chibuleo" model="res.bank">
+    <field name="name">Corp. San Francisco De Chibuleo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_jatun_nan" model="res.bank">
+    <field name="name">Caja Solidaria Jatun Ñan</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_15_mayo" model="res.bank">
+    <field name="name">Coop. 15 De Mayo</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camino_oro_kurinan" model="res.bank">
+    <field name="name">Coop. Camino De Oro Kuriñan</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_fernando" model="res.bank">
+    <field name="name">Coop. San Fernando</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ecuaespana" model="res.bank">
+    <field name="name">Caja Ecuaespaña</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_bancaja" model="res.bank">
+    <field name="name">Caja De A Y C Bancaja</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_corpucoop" model="res.bank">
+    <field name="name">Coop. A Y C Corpucoop Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_chunchi" model="res.bank">
+    <field name="name">Coop. A Y C Chunchi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_los_rios" model="res.bank">
+    <field name="name">Coop. A Y C Los Rios</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_el_molino" model="res.bank">
+    <field name="name">Coop. De Ahorro  Y Crédito El Molino Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coopac" model="res.bank">
+    <field name="name">Coop. A Y C  Campesina Coopac </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_indesfut" model="res.bank">
+    <field
+      name="name"
+    >Coop. A Y C Integracion Desarrollo Y Futuro "Indesfut" Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_bce_dinero_electronico" model="res.bank">
+    <field name="name">Bce-Dinero Electronico-Sci</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ahorrista_solidario" model="res.bank">
+    <field name="name">Coop. A Y C Ahorrista Solidario</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_distr_metrop_quito_amazonas" model="res.bank">
+    <field name="name">Coop.  De A Y C Distrito Metropolitano Quito Amazonas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_armada_nacional" model="res.bank">
+    <field name="name">Coop.  De A Y C Armada Nacional</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_integracion_solidaria" model="res.bank">
+    <field name="name">Coop. A Y C Integracion Solidaria Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sumak_kawsay" model="res.bank">
+    <field name="name">Coop. A Y C Sumak Kawsay</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coice" model="res.bank">
+    <field name="name">Coop. A Y C Indigenas De Cebadas Coice Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_gnrl_ruminahui" model="res.bank">
+    <field name="name">Coop. A Y C General Rumiñahui</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="sttn_ec_interdin" model="res.bank">
+    <field name="name">Interdin S.A.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_camara_comercio_quito" model="res.bank">
+    <field name="name">Coop.A Y C Camara De Comercio Quito</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_accion_desarrollo" model="res.bank">
+    <field name="name">Coop. A Y C Accion Y Desarrollo Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cristo_rey" model="res.bank">
+    <field name="name">Coop. A Y C Cristo Rey</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_inka_kipu" model="res.bank">
+    <field name="name">Coop. A Y C Inka Kipu Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_totalife" model="res.bank">
+    <field name="name">Coop. A Y C Totalife Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_etapa" model="res.bank">
+    <field name="name">Coop. A Y C Etapa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_snt_licua" model="res.bank">
+    <field name="name">Coop. A Y C Santa Lucia Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_migrante_solidario" model="res.bank">
+    <field name="name">Coop. A Y C El Migrante Solidario</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sindicato_choferes_yantza" model="res.bank">
+    <field name="name">Coop. A Y C Sindicato De Choferes Profesionales De Yantza</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_29_enero" model="res.bank">
+    <field name="name">Coop. A Y C 29 De Enero</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sol_andes" model="res.bank">
+    <field name="name">Coop. A Y C Sol De Los Andes Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_quevedo" model="res.bank">
+    <field name="name">Coop. A Y C Quevedo Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_gnrl_angel_flores" model="res.bank">
+    <field name="name">Coop. A Y C General Angel Flores </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_14_mayo" model="res.bank">
+    <field name="name">Coop. A Y C 14 De Mayo  </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sn_francisco" model="res.bank">
+    <field name="name">Coop. A Y C San Francisco</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_banco_central" model="res.bank">
+    <field name="name">Coop. A Y C Banco Central Del Ecuador</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_simon_bolivar" model="res.bank">
+    <field name="name">Coop. A Y C Simón Bolívar</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_finander" model="res.bank">
+    <field name="name">Coop. A Y C Finander</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_dn_bosco" model="res.bank">
+    <field name="name">Coop. A Y C Don Bosco</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ecuacreditos" model="res.bank">
+    <field name="name">Coop. A Y C Ecuacreditos Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_ferroviaria_ecuatoriana" model="res.bank">
+    <field name="name">Coop. A Y C Unión Ferroviaria Ecuatoriana Ltda.</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_rural_sierra_norte" model="res.bank">
+    <field name="name">Coop. A Y C Rural Sierra Norte </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_divino_nino" model="res.bank">
+    <field name="name">Coop. A Y C Divino Niño</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_costa_azul" model="res.bank">
+    <field name="name">Coop. A Y C Costa Azul Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_la_nuestra" model="res.bank">
+    <field name="name">Coop. A Y C La Nuestra Ltda </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="exchn_ec_bvq" model="res.bank">
+    <field name="name">Bolsa De Valores De Quito Bvq Sociedad Anonima</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_vencedores_pichincha" model="res.bank">
+    <field name="name">Coop. A Y C Vencedores De Pichincha Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_sembrando_futuro" model="res.bank">
+    <field name="name">Coop. A Y C Sembrando Futuro</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_atlantida" model="res.bank">
+    <field name="name">Coop. A Y C Atlantida</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_llacta_pura" model="res.bank">
+    <field name="name">Coop. A Y C Llacta Pura </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_cerc" model="res.bank">
+    <field name="name">Coop. A Y C De Crecimiento Económico Rentable Crecer Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_creciendo_juntos" model="res.bank">
+    <field name="name">Coop. A Y C Creciendo Juntos Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coorambato" model="res.bank">
+    <field name="name">Coop. A Y C Coorambato</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_atahualpa" model="res.bank">
+    <field name="name">Coop. A Y C Atahualpa</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_occidental" model="res.bank">
+    <field name="name">Coop. A Y C Occidental  </field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_collas" model="res.bank">
+    <field name="name">Coop. A Y C Collas</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_coorcotopaxi" model="res.bank">
+    <field name="name">Coop. A Y C Coorcotopaxi</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="coop_ec_kury_wayta" model="res.bank">
+    <field name="name">Coop. A Y C Kury Wayta Ltda</field>
+    <field name="country" ref="base.ec" />
+  </record>
+
+  <record id="bank_ec_others" model="res.bank">
+    <field name="name">Otras Instituciones Financieras</field>
+    <field name="country" ref="base.ec" />
+  </record>
+</odoo>

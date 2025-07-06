@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="l10n_latam_base.view_partner_latam_form" model="ir.ui.view">
+    <field name="active" eval="False" />
+  </record>
+
+  <!-- res.partner form inherit view -->
+  <record id="view_res_partner_form_inherit" model="ir.ui.view">
+    <field name="name">res.partner.view.form.inherit</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form" />
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='vat']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//span[@name='address_name']" position="before">
+        <label for="l10n_latam_identification_type_id" string="Identification Number" />
+        <div class="o_row" name="l10n_ec_data">
+          <field
+            name="l10n_latam_identification_type_id"
+            options="{'no_open': True, 'no_create': True}"
+            placeholder="Type"
+            readonly="parent_id"
+            class="oe_inline"
+            domain="country_id and ['|', ('country_id', '=', False), ('country_id', '=', country_id)] or []"
+            required="True"
+          />
+          <field name="vat" placeholder="Number" class="oe_inline" readonly="parent_id" />
+        </div>
+      </xpath>
+    </field>
+  </record>
+
+  <!-- res.partner form inherit view -->
+  <record id="view_res_partner_bank_form_inherit" model="ir.ui.view">
+    <field name="name">res.partner.view.form.inherit</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="account.view_partner_property_form" />
+    <field name="priority" eval="100" />
+    <field name="arch" type="xml">
+      <xpath expr="//group[@name='banks']" position="replace" />
+      <xpath expr="//group[@name='credit_limits']" position="after">
+        <separator
+          string="Bank Accounts"
+          groups="account.group_account_invoice,account.group_account_readonly"
+        />
+        <field
+          name="bank_ids"
+          nolabel="1"
+          context="{'default_partner_id': id}"
+          widget="auto_save_res_partner"
+          groups="account.group_account_invoice,account.group_account_readonly"
+        >
+          <list editable="bottom">
+            <field name="sequence" widget="handle" />
+            <field
+              name="bank_id"
+              required="1"
+              options="{'limit': 10, 'create': false, 'create_edit': false, 'no_open': true}"
+            />
+            <field name="l10n_ec_account_type" required="1" />
+            <field name="acc_number" required="1" />
+            <field name="l10n_latam_identification_type_id" />
+            <field name="vat" string="Identification Number" />
+            <field name="allow_out_payment" widget="boolean_toggle" optional="hide" />
+            <field name="acc_holder_name" invisible="1" />
+          </list>
+        </field>
+      </xpath>
+    </field>
+  </record>
+</odoo>

@@ -42,6 +42,23 @@ repos:
     rev: v1.2
     hooks:
       - id: whool-init
+  - repo: https://github.com/oca/maintainer-tools
+    rev: bf9ecb9938b6a5deca0ff3d870fbd3f33341fded
+    hooks:
+      # update the NOT INSTALLABLE ADDONS section above
+      - id: oca-update-pre-commit-excluded-addons
+      - id: oca-fix-manifest-website
+        args: ["https://campuscleverit.es"]
+      - id: oca-gen-addon-readme
+        args:
+          - --addons-dir=.
+          - --branch=18.0
+          - --org-name=OCA
+          - --repo-name=web
+          - --if-source-changed
+          - --keep-source-digest
+          - --convert-fragments-to-markdown
+      # - id: oca-gen-external-dependencies
   - repo: https://github.com/OCA/odoo-pre-commit-hooks
     rev: v0.0.33
     hooks:
@@ -110,11 +127,8 @@ repos:
     rev: v9.1.3
     hooks:
       - id: pylint_odoo
-        name: pylint with optional checks
+        name: pylint with optional and mandatory checks
         args:
           - --rcfile=.pylintrc
           - --exit-zero
         verbose: true
-      - id: pylint_odoo
-        args:
-          - --rcfile=.pylintrc-mandatory

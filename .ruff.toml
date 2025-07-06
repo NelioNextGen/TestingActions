@@ -1,6 +1,7 @@
 
 target-version = "py310"
 fix = true
+# line-length = 119 # change from 88 to 119 line length
 
 [lint]
 extend-select = [
@@ -11,7 +12,7 @@ extend-select = [
     "UP",  # pyupgrade
 ]
 extend-safe-fixes = ["UP008"]
-exclude = ["setup/*"]
+exclude = ["setup/*", "venv/*", ".venv/*"]
 
 [format]
 exclude = ["setup/*"]

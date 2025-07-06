@@ -1,0 +1,241 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ec_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-17 21:05+0000\n"
+"PO-Revision-Date: 2025-02-13 11:17-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_account_setup_bank_manual_config__l10n_ec_account_type
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_partner_bank__l10n_ec_account_type
+msgid "Account Type"
+msgstr "Tipo de Cuenta"
+
+#. module: l10n_ec_base
+#: model:ir.model,name:l10n_ec_base.model_res_partner_bank
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_bank_form_inherit
+msgid "Bank Accounts"
+msgstr "Cuentas bancarias"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner_bank.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_base.selection__res_partner_bank__l10n_ec_account_type__checking
+#, python-format
+msgid "Checking Account"
+msgstr "Cuenta Corriente"
+
+#. module: l10n_ec_base
+#: model:ir.model,name:l10n_ec_base.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_final
+msgid "Consumidor final"
+msgstr "Consumidor final"
+
+#. module: l10n_ec_base
+#: model:ir.model,name:l10n_ec_base.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_account_setup_bank_manual_config__country_id
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_partner__country_id
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_partner_bank__country_id
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_users__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner_bank.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_base.selection__res_partner_bank__l10n_ec_account_type__credit_card
+#, python-format
+msgid "Credit Card"
+msgstr "Tarjeta de Crédito"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_dni
+msgid "Cédula"
+msgstr "Cédula (NUI)"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_company__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición Fiscal"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_account_setup_bank_manual_config__vat
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_company__vat
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_partner_bank__vat
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_partner_bank_form_inherit_l10n_ec
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_bank_form_inherit
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_form_inherit
+msgid "Identification Number"
+msgstr "Número de Identificación"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,help:l10n_ec_base.field_account_setup_bank_manual_config__vat
+#: model:ir.model.fields,help:l10n_ec_base.field_res_company__vat
+#: model:ir.model.fields,help:l10n_ec_base.field_res_partner_bank__vat
+msgid "Identification Number for selected type"
+msgstr "Número de Identificación seleccionada por el tipo"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_account_setup_bank_manual_config__l10n_latam_identification_type_id
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_company__l10n_latam_identification_type_id
+#: model:ir.model.fields,field_description:l10n_ec_base.field_res_partner_bank__l10n_latam_identification_type_id
+msgid "Identification Type"
+msgstr "Tipo de Identificación"
+
+#. module: l10n_ec_base
+#: model:ir.model,name:l10n_ec_base.model_l10n_latam_identification_type
+msgid "Identification Types"
+msgstr "Tipos de Identificación"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner.py:0
+#, python-format
+msgid "If your identification type is %s, it must be 10 digits \n"
+msgstr "Si su tipo de identificación es %s, debe tener 10 dígitos \n"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner.py:0
+#, python-format
+msgid "If your identification type is %s, it must be 13 digits \n"
+msgstr "Si su tipo de identificación es %s, debe tener 13 dígitos \n"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_internacional
+msgid "Intenacional (RUC)"
+msgstr ""
+
+#. module: l10n_ec_base
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_partner_bank_form_inherit_l10n_ec
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_form_inherit
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner.py:0
+#, python-format
+msgid ""
+"Partner vat must be unique per company except on partner with parent/"
+"childe relationship. Partners with same vat and not related, are:\n"
+" %s!"
+msgstr ""
+"El VAT de los socios debe ser único por empresa, excepto en el caso de "
+"socios con relación padre/hijo. Socios con el mismo iva y no "
+"relacionados, son::\n"
+" %s!"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_passport
+msgid "Pasaporte"
+msgstr "Pasaporte"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_internacional_id
+msgid "Pasaporte / Identificación tributaria del exterior"
+msgstr "Pasaporte / Identificación tributaria del exterior"
+
+#. module: l10n_ec_base
+#: model:l10n_latam.identification.type,name:l10n_ec_base.ec_ruc
+msgid "RUC"
+msgstr "RUC"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner_bank.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_base.selection__res_partner_bank__l10n_ec_account_type__savings
+#, python-format
+msgid "Savings Account"
+msgstr "Cuenta de Ahorros"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,help:l10n_ec_base.field_account_setup_bank_manual_config__l10n_ec_account_type
+#: model:ir.model.fields,help:l10n_ec_base.field_res_partner_bank__l10n_ec_account_type
+msgid "Select here the type of account (savings or checking)"
+msgstr "Seleccione el tipo de cuenta (Ahorros o Corriente)"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,help:l10n_ec_base.field_res_company__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+"La posición fiscal determina los impuestos/cuentas utilizadas para este "
+"contacto."
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,help:l10n_ec_base.field_account_setup_bank_manual_config__l10n_latam_identification_type_id
+#: model:ir.model.fields,help:l10n_ec_base.field_res_company__l10n_latam_identification_type_id
+#: model:ir.model.fields,help:l10n_ec_base.field_res_partner_bank__l10n_latam_identification_type_id
+msgid "The type of identification"
+msgstr "Tipo de identificación"
+
+#. module: l10n_ec_base
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_partner_bank_form_inherit_l10n_ec
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_form_inherit
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_l10n_latam_identification_type__l10n_ec_tpidcliente
+msgid "Type Customer"
+msgstr "Tipo de Cliente"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_l10n_latam_identification_type__l10n_ec_tpidclienteex
+msgid "Type ID Exports"
+msgstr "Tipo ID Exportaciones"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_l10n_latam_identification_type__l10n_ec_tipoidinformante
+msgid "Type ID Informant"
+msgstr "Tipo ID Informante"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields,field_description:l10n_ec_base.field_l10n_latam_identification_type__l10n_ec_tpidprov
+msgid "Type Supplier"
+msgstr "Tipo de Proveedor"
+
+#. module: l10n_ec_base
+#: model_terms:ir.ui.view,arch_db:l10n_ec_base.view_res_partner_bank_form_inherit
+msgid "View accounts detail"
+msgstr "Ver detalle de las cuentas"
+
+#. module: l10n_ec_base
+#: model:ir.model.fields.selection,name:l10n_ec_base.selection__res_partner_bank__l10n_ec_account_type__virtual
+msgid "Virtual"
+msgstr "Virtual"
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner.py:0
+#, python-format
+msgid "You cannot register more than one contact as an Final Consumer!"
+msgstr "No puede registrar más de un contacto como Consumidor final."
+
+#. module: l10n_ec_base
+#. odoo-python
+#: code:addons/l10n_ec_base/models/res_partner_bank.py:0
+#, python-format
+msgid "You have to select the type of identification!"
+msgstr "Debe seleccionar el tipo de identificación."
