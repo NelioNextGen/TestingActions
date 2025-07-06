@@ -4,7 +4,7 @@
     "summary": "Localizacion Ecuador Base",
     "category": "Account",
     "author": "NextGen S.A.",
-    "website": "https://campuscleverit.es",
+    "website": "https://nextgen.ec",
     "license": "AGPL-3",
     "depends": [
         "account",
