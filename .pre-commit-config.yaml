@@ -42,23 +42,6 @@ repos:
     rev: v1.2
     hooks:
       - id: whool-init
-  - repo: https://github.com/oca/maintainer-tools
-    rev: bf9ecb9938b6a5deca0ff3d870fbd3f33341fded
-    hooks:
-      # update the NOT INSTALLABLE ADDONS section above
-      - id: oca-update-pre-commit-excluded-addons
-      - id: oca-fix-manifest-website
-        args: ["https://github.com/OCA/bank-payment"]
-      - id: oca-gen-addon-readme
-        args:
-          - --addons-dir=.
-          - --branch=18.0
-          - --org-name=OCA
-          - --repo-name=bank-payment
-          - --if-source-changed
-          - --keep-source-digest
-          - --convert-fragments-to-markdown
-      - id: oca-gen-external-dependencies
   - repo: https://github.com/OCA/odoo-pre-commit-hooks
     rev: v0.0.33
     hooks:
