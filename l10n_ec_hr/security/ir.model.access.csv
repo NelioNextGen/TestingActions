@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_disability_type_user,hr.disability.type.user,model_hr_disability_type,base.group_user,1,0,0,0
+access_hr_disability_type_manager,hr.disability.type.manager,model_hr_disability_type,hr.group_hr_manager,1,1,1,1
+access_hr_employee_work_period_user,hr.employee.work.period.user,model_hr_employee_work_period,base.group_user,1,0,0,0
+access_hr_employee_work_period_manager,hr.employee.work.period.manager,model_hr_employee_work_period,hr.group_hr_manager,1,1,1,1
+access_hr_contract_update_wage,hr_contract_update_wage,model_hr_contract_update_wage,hr.group_hr_manager,1,1,1,1
+access_hr_contract_update_job,hr_contract_update_job,model_hr_contract_update_job,hr.group_hr_manager,1,1,1,1
+access_hr_contract_update,hr.contract.update,model_hr_contract_update,hr.group_hr_user,1,1,1,1
+access_hr_contract_job_user,hr.contract.job.user,model_hr_contract_job,hr.group_hr_user,1,0,0,0
+access_hr_contract_job_manager,hr.contract.job.manager,model_hr_contract_job,hr.group_hr_manager,1,1,1,1
+access_hr_contract_wage_user,hr.contract.wage.user,model_hr_contract_wage,hr.group_hr_user,1,0,0,0
+access_hr_contract_wage_manager,hr.contract.wage.manager,model_hr_contract_wage,hr.group_hr_manager,1,1,1,1
+access_hr_contract_finish_reason,hr_contract_finish_reason,model_hr_contract_finish_reason,hr.group_hr_manager,1,1,1,1
+access_hr_contract_finish,hr_contract_finish,model_hr_contract_finish,hr.group_hr_manager,1,1,1,1
+access_hr_sectorial_code,hr_sectorial_code,model_hr_sectorial_code,hr.group_hr_manager,1,1,1,1

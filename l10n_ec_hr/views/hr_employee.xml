@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- hr.employee form inherit view -->
+    <record id="view_hr_employee_form_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.view.form.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <field name="state" widget="statusbar" clickable="True"/>
+                </header>
+            </xpath>
+            <xpath expr="//field[@name='name']" position="attributes">
+                <attribute name="class">oe_read_only</attribute>
+            </xpath>
+            <xpath expr="//field[@name='country_id']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='job_id']" position="attributes">
+                <attribute name="domain">[('department_id', '=', department_id)]</attribute>
+            </xpath>
+            <xpath expr="//field[@name='job_id']" position="after">
+                <field name="sectorial_code"/>
+                <field name="section" string="Sección"/>
+            </xpath>
+            <xpath expr="//field[@name='identification_id']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='birthday']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+            <!-- <xpath expr="//field[@name='phone']" position="attributes">
+                <attribute name="readonly">0</attribute>
+            </xpath> -->
+            <xpath expr="//page[@name='personal_information']" position="after">
+                <page string="Work Periods">
+                    <field name="work_period_ids" context="{'default_employee_id': id}">
+                        <list string="Work Periods" editable="top">
+                            <field name="period_type"/>
+                            <field name="employee_id" column_invisible="1"/>
+                            <field name="contract_id" domain="[('employee_id', '=', employee_id)]" options="{'no_create': True, 'no_create_edit': True, 'no_open': True}"/>
+                            <field name="contract_type_id"/>
+                            <field name="date_start" required="1"/>
+                            <field name="date_end"/>
+                            <field name="number_of_days_reserve_funds" sum="total"/>
+                            <field name="number_of_days" sum="total"/>
+                            <field name="number_of_years" sum="total"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+            <xpath expr="//page[@name='personal_information']/group[1]" position="inside">
+                <group string="Conadis">
+                    <field name="disability"/>
+                    <field name="conadis_id" invisible="not disability" required="disability"/>
+                    <field name="disability_type_id" invisible="not disability" required="disability" widget="selection"/>
+                    <field name="disability_percent" invisible="not disability" required="disability" widget="percentage"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- hr.employee form inherit view -->
+    <record id="view_hr_employee_firstname_form_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr_employee_lastnames.view_employee_form_inherit"/>
+        <field name="priority" eval="8"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='firstname']" position="attributes">
+                <attribute name="required">1</attribute>
+                <attribute name="class">oe_edit_only</attribute>
+            </xpath>
+            <xpath expr="//field[@name='lastname']" position="attributes">
+                <attribute name="required">1</attribute>
+                <attribute name="class">oe_edit_only</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- hr.employee form inherit view -->
+    <record id="view_hr_employee_lastnames_form_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.view.form.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr_employee_lastnames.view_employee_form_inherit"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='lastname2']" position="attributes">
+                <attribute name="required">1</attribute>
+                <attribute name="class">oe_edit_only</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- hr.employee.relative form view -->
+    <record id="view_hr_employee_relative_form" model="ir.ui.view">
+        <field name="name">hr.employee.relative.view.form</field>
+        <field name="model">hr.employee.relative</field>
+        <field name="arch" type="xml">
+            <form string="Employee Relatives">
+                <div class="oe_title">
+                    <label class="oe_edit_only" for="name" string="Name"/>
+                    <h1>
+                        <field name="name" placeholder="Name"/>
+                    </h1>
+                </div>
+                <group>
+                    <group>
+                        <field name="relation_id" options="{'no_open': True, 'no_quick_create':True,'no_create_edit':True}"/>
+                        <field name="identification_id" required="1"/>
+                        <field name="partner_id" domain="[('vat', '!=', False), ('vat', '=', identification_id)]" options="{'no_open': True, 'no_quick_create':True,'no_create_edit':True}"/>
+                        <field name="required_date_of_birth" column_invisible="1"/>
+                        <field name="required_date_of_marriage" column_invisible="1"/>
+                        <field name="date_of_birth" required="required_date_of_birth"/>
+                        <field name="date_of_marriage" required="required_date_of_marriage"/>
+                        <field name="job"/>
+                    </group>
+                    <group>
+                        <field name="gender"/>
+                        <field name="phone_number"/>
+                        <field name="age_year"/>
+                        <field name="age_month"/>
+                        <field name="age_day"/>
+                        <field name="years"/>
+                        <field name="family_burden"/>
+                        <field name="disability"/>
+                        <field name="conadis_id" invisible="not disability" required="disability"/>
+                        <field name="disability_type_id" invisible="not disability" required="disability" widget="selection"/>
+                        <field name="disability_percent" invisible="not disability" required="disability" widget="percentage"/>
+                    </group>
+                </group>
+                <div>
+                    <field name="notes" placeholder="Notes"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- hr.employee.relative tree inherit view -->
+    <record id="view_hr_employee_relative_tree_inherit" model="ir.ui.view">
+        <field name="name">hr.employee.relative.view.tree.inherit</field>
+        <field name="model">hr.employee.relative</field>
+        <field name="inherit_id" ref="hr_employee_relative.hr_employee_relative_view_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//list" position="attributes">
+                <attribute name="editable"></attribute>
+            </xpath>
+            <xpath expr="//field[@name='age_day']" position="after">
+                <field name="date_of_marriage"/>
+            </xpath>
+            <xpath expr="//field[@name='job']" position="attributes">
+                <attribute name="column_invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='notes']" position="attributes">
+                <attribute name="column_invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='notes']" position="after">
+                <field name="family_burden"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr_employee_view_search" model="ir.ui.view">
+        <field name="name">hr.employee.search.view.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='inactive']" position="replace">
+                <filter string="Active" name="active" domain="[('state','=','active')]"/>
+                <filter string="Inactive" name="inactive" domain="[('state','=','inactive')]"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="hr.open_view_employee_list_my" model="ir.actions.act_window">
+        <field name="context">{'search_default_active': 1, 'show_fired': 1}</field>
+    </record>
+
+    <!-- res.partner form inherit view -->
+    <record id="view_res_partner_form_inherit" model="ir.ui.view">
+        <field name="name">res.partner.view.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_view_form_private"/>
+        <field name="arch" type="xml">
+            <xpath expr="//label[@for='name']" position="replace"/>
+            <xpath expr="//field[@name='name']" position="replace">
+                <div class="oe_title">
+                    <h1>
+                        <field name="name" default_focus="1"/>
+                    </h1>
+                </div>
+            </xpath>
+            <xpath expr="//group/group/label" position="before">
+                <label for="l10n_latam_identification_type_id" string="Identification Number"/>
+                <div>
+                    <field name="l10n_latam_identification_type_id" options="{'no_open': True, 'no_create': True}" placeholder="Type" readonly="parent_id" class="oe_inline" domain="country_id and ['|', ('country_id', '=', False), ('country_id', '=', country_id)] or []" required="True"/>
+                    <span class="oe_read_only"> - </span>
+                    <field name="vat" placeholder="Number" class="oe_inline" readonly="parent_id"/>
+                </div>
+            </xpath>
+            <xpath expr="//field[@name='bank_ids']/list//field[@name='bank_id']" position="attributes">
+                <attribute name="required">1</attribute>
+                <attribute name="options">{'limit': 10, 'create': false, 'create_edit': false,
+                    'no_open': true}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='bank_ids']/list//field[@name='bank_id']" position="after">
+                <field name="l10n_ec_account_type" required="1"/>
+            </xpath>
+            <xpath expr="//field[@name='bank_ids']/list//field[@name='acc_number']" position="attributes">
+                <attribute name="required">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

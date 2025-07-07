@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_hr_contract_update_form" model="ir.ui.view">
+        <field name="name">hr.contract.update.form</field>
+        <field name="model">hr.contract.update</field>
+        <field name="arch" type="xml">
+            <form string="Contract Update">
+                <group>
+                    <field name="option" widget="radio"/>
+                </group>
+                <notebook>
+                    <page string="Wage Update" invisible="option != 'wage'">
+                        <field name="wage_ids">
+                            <list editable="bottom">
+                                <field name="contract_id"/>
+                                <field name="employee_id"/>
+                                <field name="old_wage"/>
+                                <field name="wage"/>
+                                <field name="type"/>
+                                <field name="date"/>
+                                <field name="name"/>
+                            </list>
+                        </field>
+                    </page>
+                    <page string="Job Update" invisible="option != 'job'">
+                        <field name="job_ids">
+                            <list editable="bottom">
+                                <field name="contract_id"/>
+                                <field name="employee_id"/>
+                                <field name="old_job_id"/>
+                                <field name="job_id"/>
+                                <field name="date"/>
+                                <field name="name"/>
+                            </list>
+                        </field>
+                    </page>
+                </notebook>
+                <footer>
+                    <button name="update_contract" string="Update Contract" type="object" class="btn-primary"/>
+                    or
+                    <button string="Cancel" class="btn-default" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

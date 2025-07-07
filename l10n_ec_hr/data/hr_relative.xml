@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <function name="write" model="ir.model.data">
+        <function name="search" model="ir.model.data">
+            <value eval="[('model', '=', 'hr.employee.relative.relation'), ('name', 'in', ['relation_spouse', 'relation_child'])]"/>
+        </function>
+        <value eval="{'noupdate': False}" />
+    </function>
+
+    <record model="hr.employee.relative.relation" id="hr_employee_relative.relation_spouse">
+        <field name="marriage_date_required" eval="True" />
+    </record>
+
+    <record model="hr.employee.relative.relation" id="hr_employee_relative.relation_child">
+        <field name="birthday_required" eval="True" />
+    </record>
+
+</odoo>

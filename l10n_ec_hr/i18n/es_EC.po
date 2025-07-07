@@ -1,0 +1,918 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ec_hr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-14 22:56+0000\n"
+"PO-Revision-Date: 2024-11-15 11:32-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_job
+msgid ""
+"\n"
+"    Historical record of job changes\n"
+"    "
+msgstr ""
+"\n"
+"    Historial de cambio laboral"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_wage
+msgid ""
+"\n"
+"    Historical record of wage changes\n"
+"    "
+msgstr ""
+"\n"
+"    Historial de cambios de salario\n"
+"    "
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_update_job
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_update_wage
+msgid ""
+"\n"
+"    Register salary update to one or more employees\n"
+"    "
+msgstr ""
+"\n"
+"    Register salary update to one or more employees\n"
+"    "
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_update
+msgid ""
+"\n"
+"    This wizard allows you to update the work order or the salary of an "
+"employee,\n"
+"    either individually or by department\n"
+"    "
+msgstr ""
+"\n"
+"    El asistente le ayudara a actualizar el salario de un colaborador\n"
+"    individual o por departamento\n"
+"    "
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_res_partner_form_inherit
+msgid "<span class=\"oe_read_only\"> - </span>"
+msgstr "<span class=\"oe_read_only\"> - </span>"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid "<span>Please select one of the options.</span>"
+msgstr "<span>Porfavor selecciona una de las .</span>"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__state__active
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee_public__state__active
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_employee_view_search
+#, python-format
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_type__antiquity
+#, python-format
+msgid "Antiquity"
+msgstr "Antiguedad"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_finish.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__employee
+#, python-format
+msgid "Archive Employee"
+msgstr "Empleados inactivos"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__certificate__bachiller
+msgid "Bachiller"
+msgstr "Bachiller"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__certificate__bachiller_tecnico
+msgid "Bachiller Técnico"
+msgstr "Bachiller Técnico"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative_relation__birthday_required
+msgid "Birthday Required"
+msgstr "Fecha de Nacimiento Requerida"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__conadis_id
+#, python-format
+msgid "CONADIS"
+msgstr "CONADIS"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__conadis_id
+msgid "CONADIS No"
+msgstr "CONADIS No"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_finish_reason
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#, python-format
+msgid "Cannot delete a contract that has an active period!"
+msgstr "No puede borrar un contrato con el periodo activo!"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__catastrophic_illness
+#, python-format
+msgid "Catastrophic Illness"
+msgstr "Enfermedad Catastrófica"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__certificate
+msgid "Certificate Level"
+msgstr "Nivel de estudios"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_finish_reason
+msgid "Close Contract"
+msgstr "Cerrar Contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_type__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_form_inherit
+msgid "Conadis"
+msgstr "Conadis"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid "Confirm"
+msgstr "Condirmar"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__contract_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__contract_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__contract_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__contract_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__contract_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__contract_id
+#, python-format
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_finish_reason
+msgid "Contract Close"
+msgstr "Cerrar Contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.actions.act_window,name:l10n_ec_hr.l10n_ec_hr_view_contract_finish_reason_action
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract__reason_id
+#: model:ir.ui.menu,name:l10n_ec_hr.menu_l10n_ec_hr_view_contract_finish_reason
+msgid "Contract Finish Reason"
+msgstr "Razón de finalización de contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_type
+msgid "Contract Type"
+msgstr "Tipo de contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.actions.act_window,name:l10n_ec_hr.action_hr_contract_update
+#: model:ir.ui.menu,name:l10n_ec_hr.menu_hr_contract_update
+msgid "Contract Update"
+msgstr "Actualización de Contrato"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid "Contracts to Update Job"
+msgstr "Cron de Actualización de Contratos"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid "Contracts to Update Wage"
+msgstr "Contratos para Actualizar Salario"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.civil_contract
+msgid "Contrato Civil"
+msgstr "INDEFINIDO CON 3 MESES PRUEBA"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.emerging_special
+msgid "Contrato Especial Emergente"
+msgstr "Contrato Especial Emergente"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.eventual_contract
+msgid "Contrato Eventual"
+msgstr "EVENTUAL 6 MESES"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.undefined_contract
+msgid "Contrato Indefinido"
+msgstr "Contrato Indefinido"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.internship_contract
+msgid "Contrato Pasantías"
+msgstr "Contrato Pasantías"
+
+#. module: l10n_ec_hr
+#: model:hr.contract.type,name:l10n_ec_hr.professional_services
+msgid "Contrato Servicios Profesionales"
+msgstr "Contrato Servicios Profesionales"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_type__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__create_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__create_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee_work_period__period_type__current
+#, python-format
+msgid "Current"
+msgstr "Actual"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__date_of_marriage
+#, python-format
+msgid "Date of Marriage"
+msgstr "Fecha de Matrimonio"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__number_of_days
+msgid "Days (Calendar)"
+msgstr "Días (Calendario)"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__number_of_days_reserve_funds
+msgid "Days (Reserve funds)"
+msgstr "Días (Fondos de Reserva)"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__disability
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__disability
+#, python-format
+msgid "Disability"
+msgstr "Discapacidad"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__disability_percent
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__disability_percent
+#, python-format
+msgid "Disability Percent"
+msgstr "Porcentaje de discapacidad"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__disability_type_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__disability_type_id
+#, python-format
+msgid "Disability Type"
+msgstr "Tipo de discapacidad"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__display_name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model,name:l10n_ec_hr.model_hr_employee
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__employee_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__employee_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__employee_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__employee_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__employee_id
+#, python-format
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract
+msgid "Employee Contract"
+msgstr "Contrato del empleado"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_relative_form
+msgid "Employee Relatives"
+msgstr "Familiares de empleados"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__state
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_public__state
+msgid "Employee Status"
+msgstr "Estado del empleado"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_employee_work_period
+msgid "Employee work periods"
+msgstr "Periodos de Trabajo"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__family_burden
+#, python-format
+msgid "Family burden"
+msgstr "Carga Familiar"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields,help:l10n_ec_hr.field_hr_employee_work_period__date_end
+#, python-format
+msgid "Final date of the contract or of the last registered payroll"
+msgstr "Fecha de final de contrato o de último rol de pagos confirmado"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#, python-format
+msgid "Finish Contract for {}"
+msgstr "Finalización del contrato por {}"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_finish.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__date
+#, python-format
+msgid "Finish Date"
+msgstr "Fecha de finalización"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_finish.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__reason_id
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.l10n_ec_hr_view_contract_finish_reason_form
+#, python-format
+msgid "Finish Reason"
+msgstr "Razón de finalización"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_form_inherit
+msgid "Fired reason:"
+msgstr "Razón de despido:"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__date_from
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__date_from
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__date_start
+#, python-format
+msgid "From"
+msgstr "Desde"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_employee_relative
+msgid "HR Employee Relative"
+msgstr "RRHH Parientes de Empleados"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_employee_relative_relation
+msgid "HR Employee Relative Relation"
+msgstr "RRHH Relación de Pariente de Empleado"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_finish
+msgid "Hr Contract Finish"
+msgstr "Finalización de Contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__id
+msgid "ID"
+msgstr "ID"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__identification_id
+msgid "Identification"
+msgstr "Identificación"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_res_partner_form_inherit
+msgid "Identification Number"
+msgstr "Número de Identificación"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__state__inactive
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee_public__state__inactive
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_employee_view_search
+#, python-format
+msgid "Inactive"
+msgstr "Inactivo"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_contract_update_wage__type__increase
+#, python-format
+msgid "Increase"
+msgstr "Incremento"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_type__internship
+#, python-format
+msgid "Internship"
+msgstr "Pasantías"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__job_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__job_id
+#, python-format
+msgid "Job"
+msgstr "Trabajo"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract__job_ids
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_form_inherit
+#, python-format
+msgid "Job History"
+msgstr "Historia Laboral"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_contract_update__option__job
+#, python-format
+msgid "Job Update"
+msgstr "Actualización de Trabajo"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type____last_update
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period____last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__write_uid
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__write_date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative_relation__marriage_date_required
+msgid "Marriage Date Required"
+msgstr "Fecha de Matrimonio Requerida"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_finish_reason__name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_disability_type__name
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_relative_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_relative_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_res_partner_form_inherit
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__number_of_years
+msgid "Number of Years"
+msgstr "Años"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__old_job_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__old_job_id
+#, python-format
+msgid "Old Job"
+msgstr "Trabajo Anterior"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__old_wage
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__old_wage
+#, python-format
+msgid "Old Wage"
+msgstr "Salario Anterior"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__option
+#, python-format
+msgid "Option"
+msgstr "Opción"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee_work_period__period_type__past
+#, python-format
+msgid "Past"
+msgstr "Anterior"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__certificate__primaria
+msgid "Primaria"
+msgstr "Primaria"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_employee_public
+msgid "Public Employee"
+msgstr "Empleado Público"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__name
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__name
+#, python-format
+msgid "Reason"
+msgstr "Razón"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.actions.act_window,help:l10n_ec_hr.l10n_ec_hr_view_contract_finish_reason_action
+msgid ""
+"Record the types of products to be used to generate the internal references."
+msgstr ""
+"Registre los tipos de productos que se utilizarán para generar las "
+"referencias internas."
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_contract_update_wage__type__reduce
+#, python-format
+msgid "Reduce"
+msgstr "Razón"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__required_date_of_birth
+msgid "Required Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__required_date_of_marriage
+msgid "Required Date of Marriage"
+msgstr "Fecha de matrimonio"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__certificate__tercer_nivel
+msgid "Tercer Nivel"
+msgstr "Tercer Nivel"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#, python-format
+msgid ""
+"The Identification Number %s is not valid with the Ecuadorian format \n"
+" it must be like this form 0953865188, must be 10 digits"
+msgstr ""
+"The Identification Number %s is not valid with the Ecuadorian format \n"
+" it must be like this form 0953865188, must be 10 digits"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#, python-format
+msgid ""
+"The Identification Number is required with the Ecuadorian format \n"
+" it must be like this form 0953865188, must be 10 digits"
+msgstr ""
+"El número de identificación no es válido con el formato Ecuatoriano\n"
+"Debe ser como esta forma 0953865188, debe ser de 10 dígitos"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#, python-format
+msgid "The employee %s has no active contract"
+msgstr "El empleado %s  no tiene contrato activo"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid ""
+"The option to <strong>Job Update</strong>, allows updating the job in the "
+"contract of one\n"
+"                            or several employees"
+msgstr ""
+"La opción<strong>Actualización de Trabajo</strong>, permite actualizar el "
+"trabajo en el contrato de uno\n"
+"                            o varios empleados"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid ""
+"The option to <strong>Wage Update</strong>, allows to update the value of "
+"the salary in the\n"
+"                            contract of one or several employees"
+msgstr ""
+"La opción <strong>Actualizar Salario</strong>, permite actualizar el valor "
+"del salario en el\n"
+"                            contrato de uno o varios empleados"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#, python-format
+msgid ""
+"The value of the new salary must be greater than the value of the previous "
+"salary"
+msgstr ""
+"El valor del nuevo salario debe ser superior al valor del salario anterior"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#, python-format
+msgid ""
+"The value of the new salary must be less than the value of the previous "
+"salary"
+msgstr ""
+"El valor del nuevo salario debe ser inferior al valor del salario anterior"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__date_to
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__date_to
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__date_end
+#, python-format
+msgid "To"
+msgstr "Hasta"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_employee.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__type
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__contract_type_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_work_period__period_type
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_res_partner_form_inherit
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_employee__certificate__universitario
+msgid "Universitario"
+msgstr "Universitario"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+msgid "Update Contract"
+msgstr "Actualizar Contrato"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_job__date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__date
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__date
+#, python-format
+msgid "Update Date"
+msgstr "Actualizar Fecha"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__job_ids
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+#, python-format
+msgid "Update Job"
+msgstr "Actualizar Función"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update__wage_ids
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+#, python-format
+msgid "Update Wage"
+msgstr "Actualizar Salario"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__wage
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_wage__wage
+#, python-format
+msgid "Wage"
+msgstr "Salario"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract__wage_ids
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_form_inherit
+#, python-format
+msgid "Wage History"
+msgstr "Historial de Salario"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields.selection,name:l10n_ec_hr.selection__hr_contract_update__option__wage
+#, python-format
+msgid "Wage Update"
+msgstr "Actualizaciónes de Salario"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_job__wiz_id
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_contract_update_wage__wiz_id
+#, python-format
+msgid "Wizard"
+msgstr "Asistente"
+
+#. module: l10n_ec_hr
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee__work_period_ids
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_form_inherit
+msgid "Work Periods"
+msgstr "Periodo de Trabajo"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_relative.py:0
+#: model:ir.model.fields,field_description:l10n_ec_hr.field_hr_employee_relative__years
+#, python-format
+msgid "Years of Marriage"
+msgstr "Años de matrominio"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#, python-format
+msgid "You must select at least one employee to perform the job update"
+msgstr ""
+"Debe seleccionar al menos un empleado para realizar la actualización de "
+"funciones"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_contract_finish_reason
+msgid "hr.contract.finish.reason"
+msgstr "Razón de Finalización del Contrato"
+
+#. module: l10n_ec_hr
+#: model:ir.model,name:l10n_ec_hr.model_hr_disability_type
+msgid "hr.disability.type"
+msgstr "Tipo de Discapacidad"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.hr_contract_update_form
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_contract_finish_reason
+msgid "or"
+msgstr "o"
+
+#. module: l10n_ec_hr
+#: model_terms:ir.ui.view,arch_db:l10n_ec_hr.view_hr_employee_form_inherit
+msgid "total"
+msgstr "total"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/models/hr_contract.py:0
+#, python-format
+msgid "you can only have one active contract per employee"
+msgstr "Sólo puede tener un contrato activo por empleado"
+
+#. module: l10n_ec_hr
+#. odoo-python
+#: code:addons/l10n_ec_hr/wizards/hr_contract_update.py:0
+#, python-format
+msgid "¡You must select at least one employee to perform the wage update!"
+msgstr ""
+"Debe seleccionar al menos un empleado para realizar la actualización "
+"salarial."

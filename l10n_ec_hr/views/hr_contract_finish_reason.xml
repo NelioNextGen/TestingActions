@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_ec_hr_view_contract_finish_reason_form" model="ir.ui.view">
+        <field name="name">l10n.ec.hr.view.contract.finish.reason.form</field>
+        <field name="model">hr.contract.finish.reason</field>
+        <field name="arch" type="xml">
+            <form string="Finish Reason">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="l10n_ec_hr_view_contract_finish_reason_tree" model="ir.ui.view">
+        <field name="name">l10n.ec.hr.view.contract.finish.reason.tree</field>
+        <field name="model">hr.contract.finish.reason</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="name"/>
+            </list>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="l10n_ec_hr_view_contract_finish_reason_action">
+        <field name="name">Contract Finish Reason</field>
+        <field name="res_model">hr.contract.finish.reason</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Record the types of products to be used to generate the internal references.
+            </p>
+        </field>
+    </record>
+
+    <menuitem action="l10n_ec_hr_view_contract_finish_reason_action" id="menu_l10n_ec_hr_view_contract_finish_reason" parent="hr.menu_human_resources_configuration" sequence="1"/>
+
+</odoo>
