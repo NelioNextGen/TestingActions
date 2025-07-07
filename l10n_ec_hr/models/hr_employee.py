@@ -206,7 +206,7 @@ class HrEmployeeContract(models.Model):
         return True
 
     @api.model
-    def get_antiquity_days(self, employee, date_to=None):
+    def get_antiquity_days(self, employee, date_to=fields.Date.today()):
         days = 0.0
         for work in employee.work_period_ids.filtered(
             lambda x: x.period_type == "past"
@@ -225,7 +225,7 @@ class HrEmployeeContract(models.Model):
                 period = row
             if period:
                 date_start = period.date_start
-                date_end = fields.Date.to_date() if date_to is None else date_to
+                date_end = date_to
                 date_end += timedelta(days=1)
                 relative = relativedelta(date_end, date_start)
                 if relative and relative.days:
