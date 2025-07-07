@@ -12,15 +12,18 @@ Este módulo de Odoo proporciona la localización base para Ecuador. Incluye:
 
 Para instalar este módulo, sigue estos pasos:
 
-1. Asegúrate de tener instalados los módulos dependientes: `account`, `l10n_latam_invoice_document`, `l10n_latam_base`, `partner_email_check`, `partner_email_duplicate_warn` y `partner_manual_rank`.
+1. Asegúrate de tener instalados los módulos dependientes: `account`, `l10n_latam_invoice_document`, `l10n_latam_base`,
+   `partner_email_check`, `partner_email_duplicate_warn` y `partner_manual_rank`.
 2. Instala el módulo `l10n_ec_base` a través del módulo de aplicaciones de Odoo.
 
 ## Configuración
 
 Este módulo no requiere configuración adicional, a menos que necesites establecer la siguiente información:
 
-- **Tipo de identificación de la compañía**: Puedes configurar el tipo de identificación de la compañía en la configuración de la empresa.
-- **Posición fiscal de la compañía**: Puedes configurar la posición fiscal de la compañía en la configuración de la empresa.
+- **Tipo de identificación de la compañía**: Puedes configurar el tipo de identificación de la compañía en la
+  configuración de la empresa.
+- **Posición fiscal de la compañía**: Puedes configurar la posición fiscal de la compañía en la configuración de la
+  empresa.
 
 ## Uso y ejemplos
 
