@@ -63,6 +63,8 @@ repos:
     rev: v0.0.33
     hooks:
       - id: oca-checks-odoo-module
+        args:
+          - --disable=xml-view-dangerous-replace-low-priority
       - id: oca-checks-po
         args:
           - --disable=po-pretty-format

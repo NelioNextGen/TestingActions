@@ -1,0 +1,7 @@
+id,name,code,country_id/id,antiquity
+undefined_contract,Contrato Indefinido,CI,base.ec,1
+civil_contract,Contrato Civil,CC,base.ec,1
+professional_services,Contrato Servicios Profesionales,CSP,base.ec,0
+internship_contract,Contrato Pasantías,CP,base.ec,0
+eventual_contract,Contrato Eventual,CE,base.ec,1
+emerging_special,Contrato Especial Emergente,CEE,base.ec,1

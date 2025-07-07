@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+
+        <record id="hr_disability_hearing" model="hr.disability.type">
+            <field name="name">Auditiva</field>
+        </record>
+
+        <record id="hr_disability_physical" model="hr.disability.type">
+            <field name="name">Física</field>
+        </record>
+
+        <record id="hr_disability_intellectual" model="hr.disability.type">
+            <field name="name">Intelectual</field>
+        </record>
+
+        <record id="hr_disability_language" model="hr.disability.type">
+            <field name="name">Lenguaje</field>
+        </record>
+
+        <record id="hr_disability_psychosocial" model="hr.disability.type">
+            <field name="name">Psicosocial</field>
+        </record>
+
+        <record id="hr_disability_visual" model="hr.disability.type">
+            <field name="name">Visual</field>
+        </record>
+
+
+</odoo>

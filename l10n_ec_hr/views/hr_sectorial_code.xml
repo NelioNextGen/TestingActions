@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- VISTA FORMULARIO -->
+    <record id="hr_sectorial_code_view_form" model="ir.ui.view">
+        <field name="name">hr.sectorial.code.form</field>
+        <field name="model">hr.sectorial.code</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="iess_code"/>
+                            <field name="job_worker"/>
+                            <field name="detail_job"/>
+                        </group>
+                        <group>
+                            <field name="ocupational_structure"/>
+                            <field name="wage"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- VISTA ÁRBOL/LISTA -->
+    <record id="hr_sectorial_code_view_tree" model="ir.ui.view">
+        <field name="name">hr.sectorial.code.tree</field>
+        <field name="model">hr.sectorial.code</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="iess_code"/>
+                <field name="job_worker"/>
+                <field name="ocupational_structure"/>
+                <field name="wage"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- VISTA BÚSQUEDA -->
+    <record id="hr_sectorial_code_view_search" model="ir.ui.view">
+        <field name="name">hr.sectorial.code.search</field>
+        <field name="model">hr.sectorial.code</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="iess_code" string="IESS Code" filter_domain="[('iess_code', 'ilike', self)]"/>
+                <field name="job_worker" string="Job" filter_domain="[('job_worker', 'ilike', self)]"/>
+                <field name="detail_job" string="Job Detail"/>
+                <separator/>
+                <group expand="0" string="Group By">
+                    <filter string="Job" name="group_by_job" context="{'group_by': 'job_worker'}"/>
+                    <filter string="IESS Code" name="group_by_iess" context="{'group_by': 'iess_code'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- ACCIÓN DE VENTANA -->
+    <record id="action_hr_sectorial_code" model="ir.actions.act_window">
+        <field name="name">Sectorial Code</field>
+        <field name="res_model">hr.sectorial.code</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="hr_sectorial_code_view_search"/>
+    </record>
+
+    <!-- ITEM DE MENÚ -->
+    <menuitem id="hr_menu_sectorial_code" name="Sectorial Code" action="action_hr_sectorial_code" parent="hr.menu_human_resources_configuration" sequence="10" groups="base.group_no_one"/>
+
+</odoo>
